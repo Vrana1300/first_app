@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="http://community.chocolatey.org/api/v2/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Packages</title>
+  <id>http://community.chocolatey.org/api/v2/Packages</id>
+  <updated>2025-02-09T02:09:44Z</updated>
+  <link rel="self" title="Packages" href="Packages" />
+  <entry>
+    <id>http://community.chocolatey.org/api/v2/Packages(Id='chocolatey',Version='2.4.2')</id>
+    <title type="text">chocolatey</title>
+    <summary type="text">Chocolatey is the package manager for Windows (like apt-get but for Windows)</summary>
+    <updated>2025-01-30T15:26:57Z</updated>
+    <author>
+      <name>Chocolatey Software, Inc</name>
+    </author>
+    <link rel="edit-media" title="V2FeedPackage" href="Packages(Id='chocolatey',Version='2.4.2')/$value" />
+    <link rel="edit" title="V2FeedPackage" href="Packages(Id='chocolatey',Version='2.4.2')" />
+    <category term="CCR.Website.V2FeedPackage" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/zip" src="https://community.chocolatey.org/api/v2/package/chocolatey/2.4.2" />
+    <m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+      <d:Version>2.4.2</d:Version>
+      <d:Title>Chocolatey</d:Title>
+      <d:Description>Chocolatey is a package manager for Windows (like apt-get but for Windows). It was designed to be a decentralized framework for quickly installing applications and tools that you need. It is built on the NuGet infrastructure currently using PowerShell as its focus for delivering packages from the distros to your door, err computer.
+
+Chocolatey is brought to you by the work and inspiration of the community, the work and thankless nights of the [Chocolatey Team](https://github.com/orgs/chocolatey/people), with Rob heading up the direction.
+
+You can host your own sources and add them to Chocolatey, you can extend Chocolatey's capabilities, and folks, it's only going to get better.
+
+### Information
+
+- [Chocolatey Website and Community Package Repository](https://community.chocolatey.org)
+- [Mailing List](http://groups.google.com/group/chocolatey) / [Release Announcements Only Mailing List](https://groups.google.com/group/chocolatey-announce) / [Build Status Mailing List](http://groups.google.com/group/chocolatey-build-status)
+- [Twitter](https://twitter.com/chocolateynuget) / [Facebook](https://www.facebook.com/ChocolateySoftware) / [GitHub](https://github.com/chocolatey)
+- [Blog](https://blog.chocolatey.org/) / [Newsletter](https://chocolatey.us8.list-manage1.com/subscribe?u=86a6d80146a0da7f2223712e4&amp;id=73b018498d)
+- [Documentation](https://docs.chocolatey.org/en-us/) / [Support](https://chocolatey.org/support)
+
+### Commands
+
+There are quite a few commands you can call - you should check out the [command reference](https://docs.chocolatey.org/en-us/choco/commands). Here are the most common:
+
+- Help - choco -? or choco command -?
+- Search - choco search something
+- List - choco list -lo
+- Config - choco config list
+- Install - choco install baretail
+- Pin - choco pin windirstat
+- Outdated - choco outdated
+- Upgrade - choco upgrade baretail
+- Uninstall - choco uninstall baretail
+
+#### Alternative installation sources:
+
+- Install ruby gem - choco install compass -source ruby
+- Install python egg - choco install sphynx -source python
+- Install windows feature - choco install IIS -source windowsfeatures
+
+#### More
+
+For more advanced commands and switches, use `choco -?` or `choco command -h`. You can also look at the [command reference](https://docs.chocolatey.org/en-us/choco/commands), including how you can force a package to install the x86 version of a package.
+
+### Create Packages?
+
+We have some great guidance on how to do that. Where? I'll give you a hint, it rhymes with socks! [Docs!](https://docs.chocolatey.org/en-us/create/create-packages)
+
+In that mess there is a link to the [PowerShell Chocolatey module reference](https://docs.chocolatey.org/en-us/create/functions).</d:Description>
+      <d:Tags>nuget apt-get machine repository chocolatey</d:Tags>
+      <d:Copyright>2017-2023 Chocolatey Software, Inc, 2011-2017 RealDimensions Software, LLC</d:Copyright>
+      <d:Created m:type="Edm.DateTime">2025-01-30T08:41:00.637</d:Created>
+      <d:Dependencies></d:Dependencies>
+      <d:DownloadCount m:type="Edm.Int32">350103548</d:DownloadCount>
+      <d:VersionDownloadCount m:type="Edm.Int32">23</d:VersionDownloadCount>
+      <d:GalleryDetailsUrl>https://community.chocolatey.org/packages/chocolatey/2.4.2</d:GalleryDetailsUrl>
+      <d:ReportAbuseUrl>https://community.chocolatey.org/package/ReportAbuse/chocolatey/2.4.2</d:ReportAbuseUrl>
+      <d:IconUrl>https://chocolatey.org/assets/images/nupkg/chocolateyicon.png</d:IconUrl>
+      <d:IsLatestVersion m:type="Edm.Boolean">true</d:IsLatestVersion>
+      <d:IsAbsoluteLatestVersion m:type="Edm.Boolean">true</d:IsAbsoluteLatestVersion>
+      <d:IsPrerelease m:type="Edm.Boolean">false</d:IsPrerelease>
+      <d:Language></d:Language>
+      <d:Published m:type="Edm.DateTime">2025-01-30T08:41:00.637</d:Published>
+      <d:LicenseUrl>https://raw.githubusercontent.com/chocolatey/choco/master/LICENSE</d:LicenseUrl>
+      <d:RequireLicenseAcceptance m:type="Edm.Boolean">false</d:RequireLicenseAcceptance>
+      <d:PackageHash>3MDaCueZx5hXT49aVPbRTON2FFOyYBxdNI4VmTec2Da1VhhxR5CR3VEhd1dinVNchaMu0R/onA5+6bjJm7GVLA==</d:PackageHash>
+      <d:PackageHashAlgorithm>SHA512</d:PackageHashAlgorithm>
+      <d:PackageSize m:type="Edm.Int64">5409812</d:PackageSize>
+      <d:ProjectUrl>https://github.com/chocolatey/choco</d:ProjectUrl>
+      <d:ReleaseNotes>See all - https://docs.chocolatey.org/en-us/choco/release-notes</d:ReleaseNotes>
+      <d:ProjectSourceUrl>https://github.com/chocolatey/choco</d:ProjectSourceUrl>
+      <d:PackageSourceUrl>https://github.com/chocolatey/choco/tree/develop/nuspec/chocolatey/chocolatey</d:PackageSourceUrl>
+      <d:DocsUrl>https://docs.chocolatey.org/en-us/</d:DocsUrl>
+      <d:MailingListUrl>https://groups.google.com/forum/#!forum/chocolatey</d:MailingListUrl>
+      <d:BugTrackerUrl>https://github.com/chocolatey/choco/issues</d:BugTrackerUrl>
+      <d:IsApproved m:type="Edm.Boolean">false</d:IsApproved>
+      <d:PackageStatus>Exempted</d:PackageStatus>
+      <d:PackageSubmittedStatus>Ready</d:PackageSubmittedStatus>
+      <d:PackageTestResultUrl>https://gist.github.com/choco-bot/a15418e735138b863903bf556abd409c</d:PackageTestResultUrl>
+      <d:PackageTestResultStatus>Passing</d:PackageTestResultStatus>
+      <d:PackageTestResultStatusDate m:type="Edm.DateTime">2025-01-30T14:52:41.127</d:PackageTestResultStatusDate>
+      <d:PackageValidationResultStatus>Passing</d:PackageValidationResultStatus>
+      <d:PackageValidationResultDate m:type="Edm.DateTime">2025-01-30T09:15:08.98</d:PackageValidationResultDate>
+      <d:PackageCleanupResultDate m:type="Edm.DateTime" m:null="true"></d:PackageCleanupResultDate>
+      <d:PackageReviewedDate m:type="Edm.DateTime">2025-01-30T15:26:57.81</d:PackageReviewedDate>
+      <d:PackageApprovedDate m:type="Edm.DateTime" m:null="true"></d:PackageApprovedDate>
+      <d:PackageReviewer>Windos</d:PackageReviewer>
+      <d:IsDownloadCacheAvailable m:type="Edm.Boolean">false</d:IsDownloadCacheAvailable>
+      <d:DownloadCacheStatus>Unknown</d:DownloadCacheStatus>
+      <d:DownloadCacheDate m:type="Edm.DateTime" m:null="true"></d:DownloadCacheDate>
+      <d:DownloadCache></d:DownloadCache>
+      <d:PackageScanStatus>Exempted</d:PackageScanStatus>
+      <d:PackageScanResultDate m:type="Edm.DateTime">2025-01-30T15:26:57.79</d:PackageScanResultDate>
+      <d:PackageScanFlagResult>None</d:PackageScanFlagResult>
+    </m:properties>
+  </entry>
+  <link rel="next" href="http://community.chocolatey.org/api/v2/Packages?$filter=(tolower(Id)%20eq%20'chocolatey')%20and%20IsLatestVersion&amp;$skiptoken='8440.877','chocolatey'" />
+</feed>
